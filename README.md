@@ -23,5 +23,5 @@ coming soon ..
 |--|--|--|--|
 | 66070127 | นางสาวพรทิพย์ สอนสุจิตรา | Website | <img alt="66070127" height="150" src="assets/66070127.JPG" width="150"/> |
 | 66070132 | นางสาวพิชชากานต์ เกริกกวิน | Arduino Circuit Designer & .ino |<img alt="66070132" height="150" src="assets/66070132.jpg" width="100"/>|
-| 66070175 | นางสาวรัตนาภรณ์ มธุรัสสกุล | Poster & Website |<img alt="66070175" height="100" src="assets/66070175.jpg" width="150"/>|
-| 66070287 | นางสาวปภาวดี จันทร์สอน | Arduino Circuit Designer & .ino |<img alt="66070287" height="100" src="assets/66070287.jpg" width="150"/>|
+| 66070175 | นางสาวรัตนาภรณ์ มธุรัสสกุล | Poster & Website |<img alt="66070175" height="150" src="assets/66070175.jpg" width="150"/>|
+| 66070287 | นางสาวปภาวดี จันทร์สอน | Arduino Circuit Designer & .ino |<img alt="66070287" height="150" src="assets/66070287.jpg" width="150"/>|
