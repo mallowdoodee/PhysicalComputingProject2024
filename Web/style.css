@@ -41,3 +41,10 @@ img {
     font-family:  fantasy;
     font-size: 100px;
   }
+  #empty{
+    border: 2px solid rgb(113, 214, 102);
+    border-radius: 20px;
+  }
+  #free{
+    color: rgb(255, 255, 255);
+  }

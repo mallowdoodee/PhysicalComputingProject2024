@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vansenger Counter</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/pic/icon.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"></script>
     
 </head>
 <body>
-    <div id="seat" align="center" style="height:100px;background:rgb(158, 233, 157);">
-        <table>
+    <div id="seat" align="center" style="height:100px;">
+        <table id="empty" style="background-color: rgb(108, 239, 119);">
             <th><img src="/pic/van.png" alt="van" style="height: 50px;"></th>
-            <th><h2>ที่นั่งว่าง</h2></th>
+            <th><h2 id="free">ที่นั่งว่าง</h2></th>
         <table>
     </div>
     
@@ -32,6 +33,10 @@
         <li>ลาดกระบัง (หัวตะเข้)</li>
     </div>
 
+
+
+
+   <!--Connect to MQTT-->
     <script>
         // MQTT Client
         const client = new Paho.MQTT.Client("broker.hivemq.com", 8000, "66070127");
@@ -61,4 +66,5 @@
         // Set callback handlers
         client.onMessageArrived = onMessageArrived;
     </script>
-    
+
+</body>
