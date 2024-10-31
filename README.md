@@ -25,3 +25,6 @@ coming soon ..
 | 66070132 | นางสาวพิชชากานต์ เกริกกวิน | Arduino Circuit Designer & .ino |<img alt="66070132" height="200" src="assets/66070132.jpg" width="150"/>|
 | 66070175 | นางสาวรัตนาภรณ์ มธุรัสสกุล | Poster & Website |<img alt="66070175" height="200" src="assets/66070175.jpg" width="150"/>|
 | 66070287 | นางสาวปภาวดี จันทร์สอน | Arduino Circuit Designer & .ino |<img alt="66070287" height="200" src="assets/66070287.jpg" width="150"/>|
+
+## Poster A1
+<img alt="poster" src="poster.png"/>
