@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,7 +20,10 @@
     <div>
         <p style="font-size: large;"><b>ต.23</b></p>
         <p>มีนบุรี > วัดบึงบัว > หัวตะเข้</p>
-        <h2 id="num">13</h2> <!--เอาเลขนี้มาจาก Arduino-->
+        <div class="center-message">
+            <textarea id="message" name="message" rows="10" readonly></textarea>
+        </div>
+        <h2 id="num">13</h2> เอาเลขนี้มาจาก Arduino
         <p>ที่นั่ง</p>
     </div>
 
@@ -33,4 +36,4 @@
     </div>
 
 </body>
-</html>
+</html>-->
