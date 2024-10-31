@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vansenger Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"></script>
+    
+</head>
+<body>
+    <div id="seat" align="center" style="height:100px;background:rgb(158, 233, 157);">
+        <table>
+            <th><img src="/pic/van.png" alt="van" style="height: 50px;"></th>
+            <th><h2>ที่นั่งว่าง</h2></th>
+        <table>
+    </div>
+    
+    <div>
+        <p style="font-size: large;"><b>ต.23</b></p>
+        <p>มีนบุรี > วัดบึงบัว > หัวตะเข้</p>
+        <!-- แสดงผลเลขจาก Broker -->
+        <div id="message" style="font-size: 2em; text-align: center;"></div>
+        <p>ที่นั่ง</p>
+    </div>
+
+    <div style="text-align: left;">
+        <h3><u>เส้นทางเดินรถ</u></h3>
+        <p><b>มีนบุรี - ลาดกระบัง(หัวตะเข้)</b></p>
+        <li>ท่ารถตู้ตลาดมีนบุรี (อาคารปลาตะเพียนทอง)</li>
+        <div style="border-left: 2px solid black; height: 100px;"></div>
+        <li>ลาดกระบัง (หัวตะเข้)</li>
+    </div>
+
+    <script>
+        // MQTT Client
+        const client = new Paho.MQTT.Client("broker.hivemq.com", 8000, "66070127");
+    
+        // Called when the client connects
+        function onConnect() {
+            console.log("Connected to MQTT broker");
+            // Subscribe to the topic
+            client.subscribe("vansenger");
+        }
+    
+        // Called when a message arrives
+        function onMessageArrived(message) {
+            console.log("Message received:", message.payloadString);
+            // Display the message (as a number) in the div
+            document.getElementById("message").textContent = message.payloadString;
+        }
+    
+        // Connect to the MQTT broker
+        client.connect({
+            onSuccess: onConnect,
+            onFailure: function (err) {
+                console.error("Connection failed:", err);
+            }
+        });
+    
+        // Set callback handlers
+        client.onMessageArrived = onMessageArrived;
+    </script>
+    
