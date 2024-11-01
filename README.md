@@ -19,7 +19,7 @@
 https://mallowdoodee.github.io/PhysicalComputingProject2024/web/index
 
 ## Video Presentation
-coming soon..
+[VANSENGER COUNTER](https://youtu.be/k6WqcArX3Ns?si=X9XE2-Kmy4_-SsKC)
 
 ## Poster A1
 [A1 Poster PDF](A1%20Poster.pdf)
