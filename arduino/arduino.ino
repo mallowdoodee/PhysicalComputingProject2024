@@ -4,8 +4,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-const char WIFI_SSID[] = "Ivory";          // CHANGE TO YOUR WIFI SSID
-const char WIFI_PASSWORD[] = "ploy2547";  // CHANGE TO YOUR WIFI PASSWORD
+const char WIFI_SSID[] = "your ssid";          // CHANGE TO YOUR WIFI SSID
+const char WIFI_PASSWORD[] = "password";  // CHANGE TO YOUR WIFI PASSWORD
 
 const char MQTT_BROKER_ADRRESS[] = "mqtt-dashboard.com";  // CHANGE TO MQTT BROKER'S ADDRESS
 const int MQTT_PORT = 1883;
