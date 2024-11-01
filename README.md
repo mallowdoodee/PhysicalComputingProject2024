@@ -35,4 +35,4 @@ https://mallowdoodee.github.io/PhysicalComputingProject2024/web/index
 | 66070287 | นางสาวปภาวดี จันทร์สอน | Arduino Circuit Designer & .ino |<img alt="66070287" height="200" src="assets/66070287.jpg" width="150"/>|
 
 ## Poster A1
-[A1 Poster](ARduino%20A1%20Poster)
+[Link to A1 Poster PDF](A1%20Poster.pdf)
