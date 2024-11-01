@@ -46,3 +46,10 @@ body, li, p, h1, h2, h3 {
 h2 {
   color: #EB8317;
 }
+
+img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  max-width: 300px; /* Prevents image from being too large */
+  border-radius: 0; /* Remove rounded borders */
+}
