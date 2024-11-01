@@ -19,13 +19,35 @@
         <p align="center">แสดงจำนวนที่นั่งว่างบนรถโดยสาร โดยจะเน้นไปที่รถโดยสารประเภทรถตู้</p>
     </div>
 
-    <div style="max-width: 55%; margin: auto;" align="center">
-        <table>
-            <th>
-                <img src="./pic2.jpg" alt="pic2" style="width: 100%; display: block; margin: auto;">
-            </th>
-        </table>
-    </div>
+    <style>
+/* Default styling for larger screens */
+.container {
+    max-width: 55%;
+    margin: auto;
+}
+
+/* Adjust image size on smaller screens */
+img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile devices, make the container full width */
+    .container {
+        max-width: 90%; /* Adjust to fit phone screen better */
+    }
+}
+</style>
+
+<div class="container" align="center">
+    <table>
+        <th>
+            <img src="./pic2.jpg" alt="pic2" style="display: block; margin: auto;">
+        </th>
+    </table>
+</div>
+
 
     <hr style="width: 100%; height: 2px; background-color: #EB8317; border: none;">
 
@@ -67,6 +89,7 @@
             </tr>
         </table>
             
+        
         </div>
 
         <hr style="width: 100%; height: 2px; background-color: #EB8317; border: none;">
