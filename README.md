@@ -22,7 +22,7 @@ https://mallowdoodee.github.io/PhysicalComputingProject2024/web/index
 coming soon..
 
 ## Poster A1
-[Link to A1 Poster PDF](A1%20Poster.pdf)
+[A1 Poster PDF](A1%20Poster.pdf)
 
 ## TEAM MEMBER
 * 66070127 พรทิพย์ สอนสุจิตรา
