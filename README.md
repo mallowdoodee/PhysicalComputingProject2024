@@ -22,7 +22,7 @@ https://mallowdoodee.github.io/PhysicalComputingProject2024/web/index
 coming soon..
 
 ## Poster A1
-[Link to A1 Poster PDF](A1%20Poster.pdf)
+[A1 Poster PDF](A1%20Poster.pdf)
 
 ## TEAM MEMBER
 * 66070127 พรทิพย์ สอนสุจิตรา
@@ -36,3 +36,7 @@ coming soon..
 | 66070132 | นางสาวพิชชากานต์ เกริกกวิน | Arduino Circuit Designer & .ino |<img alt="66070132" height="200" src="assets/66070132.jpg" width="150"/>|
 | 66070175 | นางสาวรัตนาภรณ์ มธุรัสสกุล | Poster & Website |<img alt="66070175" height="200" src="assets/66070175.jpg" width="150"/>|
 | 66070287 | นางสาวปภาวดี จันทร์สอน | Arduino Circuit Designer & .ino |<img alt="66070287" height="200" src="assets/66070287.jpg" width="150"/>|
+
+## นำเสนอ
+* รองศาสตราจารย์ ดร. กิติ์สุชาต พสุภา
+* รองศาสตราจารย์ ดร. ปานวิทย์ ธุวะนุติ
